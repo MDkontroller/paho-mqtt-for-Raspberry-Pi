@@ -5,7 +5,7 @@ from time import sleep
 MQTT_SERVER = "127.0.0.1" #169.254.71.208" local network()
 MQTT_PATH   = "channel_1" # topic to be publish /subscribed
 
-Temp = 0.0
+temp = 0.0
 cycle = 1
 
 def on_connect(client, userdata, flags, rc):
@@ -14,9 +14,7 @@ def on_connect(client, userdata, flags, rc):
 
 def on_message(client,userdata,msg):
 	#print("topic:"+ msg.topic + "  distance: " +str(msg.payload))
-	distance = float(msg.payload)
-	print("Distance = ",distance)
-
+	temp = float(msg.payload)
 
 client = mqtt.Client()
 client.on_connect = on_connect
