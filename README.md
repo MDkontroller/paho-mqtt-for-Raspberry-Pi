@@ -7,7 +7,7 @@ Make sure you have install mosquitto broken and paho-mqtt python library
 
 sudo apt-get install -y mosquitto mosquitto-clients
 
-sudo pip install paho-mqtt
+sudo pip3 install paho-mqtt
 
 -------------------------------------------------------------
 
