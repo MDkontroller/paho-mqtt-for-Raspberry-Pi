@@ -29,6 +29,6 @@ client.loop_start()
 
 while True:
     
-    sleep(0.5)
+    sleep(0.02)
     temp += 1   
     pb.single(MQTT_PATH, temp, hostname = MQTT_SERVER)
