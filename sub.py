@@ -1,7 +1,7 @@
 import paho.mqtt.client as mqtt
 from time import sleep
 
-MQTT_SERVER = "127.0.0.1" # other raspi IP adress
+MQTT_SERVER = "169.254.x.x" # other raspi IP adress
 MQTT_PATH   = "channel_1" # topic to subscriber
 
 temp = 0.0
