@@ -32,5 +32,12 @@ sudo systemctl status mosquitto
 pub.py correspods to a publisher (raspi 1), creates a topic ""channel_1 where to publish data in strings form.
 sub.py is the subscriber (raspi 2) gets string and cast it to a float variable, while executing client script
 
+in order to reach communication we need the ip adress our publischer, make sure ip address corresponds to the Network where subscriber is conected.
+```console
+hostname -I
+```
+this IP adress tipically 169.254.xxx.xxx for ethernet,we add it to our our pubisher and subscriber files. (see SERVER variable)
+
+
 # that's all!
 for more info check [`official paho-mqtt documentation:`](https://www.eclipse.org/paho/index.php?page=clients/python/docs/index.php)
