@@ -40,6 +40,7 @@ hostname -I
 ```
 this IP adress tipically 169.254.xxx.xxx for ethernet,we add it to our our pubisher and subscriber files. (see SERVER variable)
 
-
+we can run both scripts independenty, just make sure your publisher is updating quicker than your subscriber.
+for time critical applications see keepalive() in the documentation link below.
 # that's all!
 for more info check [`official paho-mqtt documentation:`](https://www.eclipse.org/paho/index.php?page=clients/python/docs/index.php)
