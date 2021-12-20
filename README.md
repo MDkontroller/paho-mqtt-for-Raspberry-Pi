@@ -1,8 +1,8 @@
 # paho-mqtt for Raspberry-Pi 
 
-# 1. Quick setup
+# 1.Quick setup
 
-_A basic example for  for 2 Raspis communication. Tested on Raspian with Desktop.
+A basic example for  for 2 Raspis communication. Tested on Raspian with Desktop.
 
 Make sure you have install mosquitto broken and paho-mqtt python library
 and get last update packages. in both Raspberry Pi
@@ -16,8 +16,8 @@ sudo apt-get install mosquitto
 sudo apt-get install -y mosquitto mosquitto-clients
 sudo pip3 install paho-mqtt
 ```
-# 2.mosquitto
-_Make sure mosquitto service is running on booot
+# 2. Mosquitto
+Make sure mosquitto service is running on booot
 
 ```console
 sudo systemctl enable mosquitto
