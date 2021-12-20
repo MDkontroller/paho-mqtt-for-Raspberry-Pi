@@ -32,5 +32,5 @@ sudo systemctl status mosquitto
 pub.py correspods to a publisher (raspi 1), creates a topic ""channel_1 where to publish data in strings form.
 sub.py is the subscriber (raspi 2) gets string and cast it to a float variable, while executing client script
 
-# thats all
+# that's all!
 for more info check [`official paho-mqtt documentation:`](https://www.eclipse.org/paho/index.php?page=clients/python/docs/index.php)
