@@ -14,7 +14,9 @@ sudo apt upgrade
 
 sudo apt-get install mosquitto
 sudo apt-get install -y mosquitto mosquitto-clients
-sudo pip3 install paho-mqtt
+sudo pip3 install paho-mqtt   # or try next if not instaling..
+python3 -m pip install paho-mqtt
+
 ```
 # 2. Mosquitto
 Make sure mosquitto service is running on booot
